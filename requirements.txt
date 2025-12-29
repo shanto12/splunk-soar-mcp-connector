@@ -1,1 +1,19 @@
+# Splunk SOAR MCP Server Dependencies
+
+# MCP SDK
 mcp>=1.0.0
+
+# FastMCP for SSE transport
+fastmcp>=0.4.0
+
+# HTTP client
+httpx>=0.27.0
+
+# SSL handling
+urllib3>=2.0.0
+
+# ASGI server (for SSE mode)
+uvicorn>=0.30.0
+
+# Optional: for better async support
+anyio>=4.0.0
